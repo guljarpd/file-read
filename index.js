@@ -83,7 +83,6 @@ const codeLineCounter = (filePath) => {
 console.log('--------- Single File Processing ----------------');
 codeLineCounter('index.js');
 
-
 const processDirectory = (directoryPath) => {
     fs.readdirSync(directoryPath).forEach(file => {
         const fullPath = path.join(directoryPath, file);
